@@ -3,3 +3,25 @@
   margin: 0;
   padding: 0;
 }
+
+ .row::after{
+   content: "";
+   clear: both;
+   display: table;
+
+ }
+
+ .row-1{
+   height: 70px;
+   background: lightgrey;
+ }
+
+ .col{
+  float: left;
+ }
+
+ .row-2 >.col-1{
+border: 1px solid black;
+height: 70px;
+width: 100%;
+ }
