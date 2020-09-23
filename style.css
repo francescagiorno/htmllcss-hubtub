@@ -11,6 +11,9 @@
 
  }
 
+  .container{
+
+  }
  .row-1{
    height: 70px;
    background: lightgrey;
@@ -25,3 +28,11 @@ border: 1px solid black;
 height: 70px;
 width: 100%;
  }
+
+ .col-3{
+   height: 450px;
+   width: 500px;
+   border:1px solid black;
+ }
+
+ 
