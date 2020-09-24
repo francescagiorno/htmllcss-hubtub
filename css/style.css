@@ -5,8 +5,23 @@
 }
 
  .container{
+}
 
- }
+.primo{
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+
+.secondo{
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+button{
+ background-color: rgb(224, 97, 65);
+ 
+}
 
  .row::after{
    content: "";
@@ -36,7 +51,8 @@
 
 .col-big{
   height: 450px;
-  width: 350px;
+  width: 650px;
+  margin-left: 90px;
 }
 
 .cont{
@@ -74,7 +90,7 @@ width: 350px;
 }
  .conte{
    height: 500px;
-   width: 1000%;
+   width: 100%;
    border: 1px solid black;
  }
 
@@ -101,7 +117,7 @@ width: 350px;
 
 .contenitore{
   height: 500px;
-  width: 1000%;
+  width: 100%;
   border: 1px solid black;
 }
 
