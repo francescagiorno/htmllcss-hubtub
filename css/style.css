@@ -21,8 +21,12 @@
  .col-50{
    width: 50%;
  }
+
+ hr{
+   color: red;
+ }
   /*classi elementi senza contenuto*/
-  .h-100{
+  .h-80{
     height: 80px;
   }
 
@@ -30,6 +34,41 @@
   border: 1px solid black;
 }
 
- hr{
-   color: red;
+.col-big{
+  height: 450px;
+  width: 350px;
+}
+
+.cont{
+height: 450px;
+width: 350px;
+}
+
+
+ .clearfix::after{
+   content: "";
+   display: table;
+   clear: both;
  }
+.columns{
+  float:left;
+
+}
+
+.col-1{
+  border: 1px solid black;
+  height: 450px;
+  width: 250px;
+}
+
+.col-2{
+  border: 1px solid black;
+  height: 450px;
+  width: 250px;
+
+}
+.col-3{
+  border: 1px solid black;
+  height: 450px;
+  width:250px;
+}
