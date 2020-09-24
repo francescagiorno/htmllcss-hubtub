@@ -72,3 +72,58 @@ width: 350px;
   height: 450px;
   width:250px;
 }
+ .conte{
+   height: 500px;
+   width: 1000%;
+   border: 1px solid black;
+ }
+
+ .riga{
+   height: 250px;
+   width: 800px;
+   border: 1px solid black;
+ }
+
+ .row-2::after{
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .colonne{
+   float: left;
+ }
+ .col-4, .col-5{
+   border: 1px solid black;
+   height: 450px;
+   width: 300px;
+ }
+
+.contenitore{
+  height: 500px;
+  width: 1000%;
+  border: 1px solid black;
+}
+
+.row-3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colon{
+  float: left;
+}
+.col-6, .col-7, .col-8, .col-9{
+  border: 1px solid black;
+  height: 450px;
+  width: 300px;
+}
+
+
+.line-2{
+  height: 100px;
+  width: 250px;
+  border: 1px solid black;
+  margin-top: 50px;
+}
